@@ -5,12 +5,9 @@ class BidScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(130.0),
-        child: AppBar(
-          backgroundColor: Color(0xff46e087),
-          title: const Text("Browse Auctions"),
-        ),
+      appBar: AppBar(
+        backgroundColor: Color(0xff46e087),
+        title: const Text("Browse Auctions"),
       ),
       body: Container(
         margin: EdgeInsets.fromLTRB(16, 16, 16, 16),
