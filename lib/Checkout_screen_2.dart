@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 
-class CheckoutPage extends StatefulWidget {
-  CheckoutPage({Key key, this.title}) : super(key: key);
+class CheckoutPage2 extends StatefulWidget {
+  CheckoutPage2({Key key, this.title}) : super(key: key);
   final String title;
 
-  _CheckoutPageState createState() => _CheckoutPageState();
+  _CheckoutPage2State createState() => _CheckoutPage2State();
 }
 
-class _CheckoutPageState extends State<CheckoutPage> {
+class _CheckoutPage2State extends State<CheckoutPage2> {
   //Auction ending pop-up
   _showAlertDialog() {
     showDialog(
@@ -85,7 +85,8 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                   borderRadius: BorderRadius.circular(8),
                                   child: Image(
                                     fit: BoxFit.contain,
-                                    image: AssetImage('assets/veg_box.jpg'),
+                                    image:
+                                        AssetImage('assets/assorted_veg.png'),
                                   )),
                             ),
                             Expanded(
@@ -98,7 +99,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                         padding: new EdgeInsets.fromLTRB(
                                             4, 16, 8, 4),
                                         child: Text(
-                                          "Box of Produce",
+                                          "Assorted Veg",
                                           maxLines: 2,
                                           overflow: TextOverflow.ellipsis,
                                           style: TextStyle(
@@ -112,7 +113,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                         padding:
                                             new EdgeInsets.fromLTRB(4, 8, 8, 4),
                                         child: Text(
-                                          "Pepper · Squash · Asparagus · Grapes · Apples · Radishes · Mushrooms · Carrots · Cabbage · Pak Choi",
+                                          "Cucumber · Carrots · Banana · Parsley · Chilies · Pomegranate · Potatoes · Lettuce · Orange",
                                           maxLines: 4,
                                           overflow: TextOverflow.ellipsis,
                                           style: TextStyle(

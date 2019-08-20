@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'auction.dart';
+import 'auction_2.dart';
+import 'auction_3.dart';
 
 class BidScreen extends StatelessWidget {
   @override
@@ -38,7 +40,10 @@ class BidScreen extends StatelessWidget {
                       contentPadding: EdgeInsets.fromLTRB(8, 0, 16, 4),
                       title: Text(
                         'Assorted Veg',
-                        style: TextStyle(color: Color(0xff707070)),
+                        style: TextStyle(
+                          color: Color(0xff707070),
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       subtitle: Text(
                         'Waitrose: Admiral Park 1.5kg',
@@ -81,7 +86,10 @@ class BidScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50)),
                       onPressed: () {
-                        /*...*/
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ListingPage2()));
                       },
                       child: Text(
                         "VIEW",
@@ -115,7 +123,10 @@ class BidScreen extends StatelessWidget {
                       contentPadding: EdgeInsets.fromLTRB(8, 0, 0, 4),
                       title: Text(
                         'Fresh Produce',
-                        style: TextStyle(color: Color(0xff707070)),
+                        style: TextStyle(
+                          color: Color(0xff707070),
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       subtitle: Text(
                         'Co-op Market Street 2.75kg',
@@ -158,7 +169,10 @@ class BidScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50)),
                       onPressed: () {
-                        /*...*/
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ListingPage3()));
                       },
                       child: Text(
                         "VIEW",
@@ -192,7 +206,10 @@ class BidScreen extends StatelessWidget {
                       contentPadding: EdgeInsets.fromLTRB(8, 0, 16, 4),
                       title: Text(
                         'Box of produce',
-                        style: TextStyle(color: Color(0xff707070)),
+                        style: TextStyle(
+                          color: Color(0xff707070),
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       subtitle: Text(
                         'Marks & Spencer High Street 0.8kg',

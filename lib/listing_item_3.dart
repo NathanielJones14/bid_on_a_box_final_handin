@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:quiver/async.dart';
-import 'package:bid_on_a_box_final/Checkout_screen.dart';
+import 'package:bid_on_a_box_final/Checkout_screen_3.dart';
 
-class ListingItem extends StatefulWidget {
-  ListingItem({Key key, this.title}) : super(key: key);
+class ListingItem3 extends StatefulWidget {
+  ListingItem3({Key key, this.title}) : super(key: key);
   final String title;
   @override
-  _ListingItemState createState() => _ListingItemState();
+  _ListingItem3State createState() => _ListingItem3State();
 }
 
-class _ListingItemState extends State<ListingItem> {
+class _ListingItem3State extends State<ListingItem3> {
   double _currentBid = 2.30;
 
   int _start = 10;
@@ -63,7 +63,7 @@ class _ListingItemState extends State<ListingItem> {
               child: new Text("Checkout"),
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => CheckoutPage()));
+                    MaterialPageRoute(builder: (context) => CheckoutPage3()));
               },
             ),
           ],
@@ -108,7 +108,7 @@ class _ListingItemState extends State<ListingItem> {
             child: Container(
               width: 320,
               child: Image(
-                image: AssetImage('assets/veg_box.jpg'),
+                image: AssetImage('assets/produce_basket.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -153,7 +153,7 @@ class _ListingItemState extends State<ListingItem> {
                               Padding(
                                 padding: new EdgeInsets.fromLTRB(24, 16, 24, 4),
                                 child: Text(
-                                  "Box of Produce",
+                                  "Fresh Produce",
                                   style: TextStyle(
                                     color: Color(0xff707070),
                                     fontSize: 32,
@@ -175,7 +175,7 @@ class _ListingItemState extends State<ListingItem> {
                               Padding(
                                 padding: new EdgeInsets.fromLTRB(24, 4, 24, 4),
                                 child: Text(
-                                  "Pepper · Squash · Asparagus · Grapes · Apples · Radishes · Mushrooms · Carrots · Cabbage · Pak Choi",
+                                  "Broccoli · Apples · Banana · Grapes · Bananas · French Beans · Asparagus · Carrots · Strawberries · Oranges",
                                   style: TextStyle(
                                     color: Color(0xff707070),
                                     fontSize: 12,
@@ -186,7 +186,7 @@ class _ListingItemState extends State<ListingItem> {
                               Padding(
                                 padding: new EdgeInsets.fromLTRB(24, 12, 24, 4),
                                 child: Text(
-                                  "Bidding Estimate:  £4-5",
+                                  "Bidding Estimate:  £5-7",
                                   style: TextStyle(
                                     color: Color(0xff707070),
                                     fontSize: 16,

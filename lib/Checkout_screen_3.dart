@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 
-class CheckoutPage extends StatefulWidget {
-  CheckoutPage({Key key, this.title}) : super(key: key);
+class CheckoutPage3 extends StatefulWidget {
+  CheckoutPage3({Key key, this.title}) : super(key: key);
   final String title;
 
-  _CheckoutPageState createState() => _CheckoutPageState();
+  _CheckoutPage3State createState() => _CheckoutPage3State();
 }
 
-class _CheckoutPageState extends State<CheckoutPage> {
+class _CheckoutPage3State extends State<CheckoutPage3> {
   //Auction ending pop-up
   _showAlertDialog() {
     showDialog(
@@ -85,7 +85,8 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                   borderRadius: BorderRadius.circular(8),
                                   child: Image(
                                     fit: BoxFit.contain,
-                                    image: AssetImage('assets/veg_box.jpg'),
+                                    image:
+                                        AssetImage('assets/produce_basket.jpg'),
                                   )),
                             ),
                             Expanded(
@@ -98,7 +99,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                         padding: new EdgeInsets.fromLTRB(
                                             4, 16, 8, 4),
                                         child: Text(
-                                          "Box of Produce",
+                                          "Fresh Produce",
                                           maxLines: 2,
                                           overflow: TextOverflow.ellipsis,
                                           style: TextStyle(
@@ -112,7 +113,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                         padding:
                                             new EdgeInsets.fromLTRB(4, 8, 8, 4),
                                         child: Text(
-                                          "Pepper · Squash · Asparagus · Grapes · Apples · Radishes · Mushrooms · Carrots · Cabbage · Pak Choi",
+                                          "Broccoli · Apples · Banana · Grapes · Bananas · French Beans · Asparagus · Carrots · Strawberries · Oranges",
                                           maxLines: 4,
                                           overflow: TextOverflow.ellipsis,
                                           style: TextStyle(
@@ -144,8 +145,8 @@ class _CheckoutPageState extends State<CheckoutPage> {
                             "Location",
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
-                              fontSize: 20.0,
                               fontWeight: FontWeight.bold,
+                              fontSize: 20.0,
                               color: Color(0xff707070),
                             ),
                           ),
