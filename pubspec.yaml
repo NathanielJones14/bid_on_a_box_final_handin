@@ -56,6 +56,16 @@ flutter:
     - assets/veg_box.jpg
     - assets/waitrose_map.png
     - assets/paper_map.png
+    - assets/chicken_jambalaya.jpg
+    - assets/chicken_cream_cheese.jpg
+    - assets/spring-lamb.jpg
+    - assets/bbq_lamb_pilaf.jpg
+    - assets/spanish-chicken-stew.jpg
+    - assets/vege-tagine-with-apricot-quinoa.jpg
+    - assets/raspberry-pistachio-lemon-curd-trifles.jpg
+    - assets/love_food.jpg
+    - assets/wrap.png
+    - assets/think_eat_save.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
