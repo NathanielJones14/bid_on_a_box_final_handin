@@ -121,7 +121,7 @@ class _ListingItem3State extends State<ListingItem3> {
             child: Container(
               width: 320,
               child: Image(
-                image: AssetImage('assets/waitrose_map.png'),
+                image: AssetImage('assets/lidl_priory.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -164,7 +164,7 @@ class _ListingItem3State extends State<ListingItem3> {
                               Padding(
                                 padding: new EdgeInsets.fromLTRB(24, 4, 24, 4),
                                 child: Text(
-                                  "Waitrose - Admiral Park · 1.5kg",
+                                  "Lidl Priory Road · 2,75kg",
                                   style: TextStyle(
                                     color: Color(0xff707070),
                                     fontSize: 16,

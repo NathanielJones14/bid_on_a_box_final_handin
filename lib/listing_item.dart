@@ -121,7 +121,7 @@ class _ListingItemState extends State<ListingItem> {
             child: Container(
               width: 320,
               child: Image(
-                image: AssetImage('assets/waitrose_map.png'),
+                image: AssetImage('assets/asda_superstore.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -164,7 +164,7 @@ class _ListingItemState extends State<ListingItem> {
                               Padding(
                                 padding: new EdgeInsets.fromLTRB(24, 4, 24, 4),
                                 child: Text(
-                                  "Waitrose - Admiral Park · 1.5kg",
+                                  "Asda Bodmin Superstore · 1.8kg",
                                   style: TextStyle(
                                     color: Color(0xff707070),
                                     fontSize: 16,

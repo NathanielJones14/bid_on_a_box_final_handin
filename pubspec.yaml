@@ -66,6 +66,13 @@ flutter:
     - assets/love_food.jpg
     - assets/wrap.png
     - assets/think_eat_save.jpg
+    - assets/Waitrose.jpg
+    - assets/Sainsburys.jpg
+    - assets/tesco.jpg
+    - assets/Aldi.png
+    - assets/sainsburys_dennison.png
+    - assets/lidl_priory.png
+    - assets/asda_superstore.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

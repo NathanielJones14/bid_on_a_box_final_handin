@@ -121,7 +121,7 @@ class _ListingItem2State extends State<ListingItem2> {
             child: Container(
               width: 320,
               child: Image(
-                image: AssetImage('assets/waitrose_map.png'),
+                image: AssetImage('assets/sainsburys_dennison.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -164,7 +164,7 @@ class _ListingItem2State extends State<ListingItem2> {
                               Padding(
                                 padding: new EdgeInsets.fromLTRB(24, 4, 24, 4),
                                 child: Text(
-                                  "Waitrose - Admiral Park · 1.5kg",
+                                  "Sainsburys Dennison Road · 1.5kg",
                                   style: TextStyle(
                                     color: Color(0xff707070),
                                     fontSize: 16,

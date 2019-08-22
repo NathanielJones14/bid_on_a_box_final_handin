@@ -159,14 +159,15 @@ class _CheckoutPage2State extends State<CheckoutPage2> {
                                 borderRadius: BorderRadius.circular(8),
                                 child: Image(
                                   fit: BoxFit.contain,
-                                  image: AssetImage('assets/waitrose_map.png'),
+                                  image: AssetImage(
+                                      'assets/sainsburys_dennison.png'),
                                 )),
                           ),
                           Flexible(
                             child: Padding(
                               padding: new EdgeInsets.fromLTRB(4, 8, 8, 4),
                               child: Text(
-                                "Waitrose, Admiral Park, Guernsey GY1 2AL",
+                                "Sainsburys Dennison Road, Bodmin PL31 2SS",
                                 maxLines: 4,
                                 overflow: TextOverflow.ellipsis,
                                 style: TextStyle(

@@ -127,7 +127,7 @@ class _CheckoutPage3State extends State<CheckoutPage3> {
                                         padding:
                                             new EdgeInsets.fromLTRB(4, 8, 8, 4),
                                         child: Text(
-                                          "1.5kg",
+                                          "2.75kg",
                                           maxLines: 4,
                                           overflow: TextOverflow.ellipsis,
                                           style: TextStyle(
@@ -159,14 +159,14 @@ class _CheckoutPage3State extends State<CheckoutPage3> {
                                 borderRadius: BorderRadius.circular(8),
                                 child: Image(
                                   fit: BoxFit.contain,
-                                  image: AssetImage('assets/waitrose_map.png'),
+                                  image: AssetImage('assets/lidl_priory.png'),
                                 )),
                           ),
                           Flexible(
                             child: Padding(
                               padding: new EdgeInsets.fromLTRB(4, 8, 8, 4),
                               child: Text(
-                                "Waitrose, Admiral Park, Guernsey GY1 2AL",
+                                "Lidl  Priory Road, Bodmin PL31 2AA",
                                 maxLines: 4,
                                 overflow: TextOverflow.ellipsis,
                                 style: TextStyle(
