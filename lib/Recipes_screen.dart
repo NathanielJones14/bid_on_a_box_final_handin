@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bid_on_a_box_final/Recipe_chicken.dart';
 
 class RecipesPage extends StatelessWidget {
   @override
@@ -100,7 +101,12 @@ class RecipesPage extends StatelessWidget {
                       )
                     ],
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => RecipeChicken()));
+                  },
                 ),
               ),
             ),
